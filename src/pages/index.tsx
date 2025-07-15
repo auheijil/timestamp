@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
-        <link rel="canonical" href="https://timestamp.run/" />
+        <link rel="canonical" href="https://Timestamp.lol/" />
         <title>Unix timestamp to date converter free online</title>
         <meta name="description" content="Epoch and unix timestamp converter free. Date and time function timestamp for various programming languages. Use it now." />
       </Head>

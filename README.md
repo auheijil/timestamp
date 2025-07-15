@@ -1,3 +1,3 @@
-timestamp.run
+timestamp.lol
 
-[Timestamp.run](https://timestamp.run/)
+[Timestamp.lol](https://timestamp.lol/)

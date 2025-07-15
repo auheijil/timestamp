@@ -5,9 +5,9 @@ export default function DateToTimestampConverter() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <Head>
-        <title>Date to Timestamp Converter | Timestamp.run</title>
+        <title>Date to Timestamp Converter | Timestamp.lol</title>
         <meta name="description" content="Convert dates to Unix timestamps with precision. Perfect for developers working with time-based data and calculations." />
-        <link rel="canonical" href="https://timestamp.run/date-to-timestamp" />
+        <link rel="canonical" href="https://Timestamp.lol/date-to-timestamp" />
       </Head>
       
       <h1 className="text-4xl font-bold mb-6 text-center text-gray-800">Date to Timestamp Converter</h1>
@@ -165,7 +165,7 @@ export default function DateToTimestampConverter() {
           professionals across all sectors.
         </p>
       </section>
-      <script defer data-domain="timestamp.run" src="https://click.pageview.click/js/script.js"></script>
+      <script defer data-domain="Timestamp.lol" src="https://click.pageview.click/js/script.js"></script>
     </div>
   )
 }

@@ -45,17 +45,17 @@ const RealtimeConverter: React.FC = () => {
       <Helmet>
         <title>Unix timestamp to date converter free online</title>
         <meta name="description" content="Epoch and unix timestamp converter free. Date and time function timestamp for various programming languages. Use it now." />
-        <link rel="canonical" href="https://timestamp.run/" />
+        <link rel="canonical" href="https://Timestamp.lol/" />
       </Helmet>
       
       <div className="flex items-center justify-center mb-6">
         <FaRegClock className="text-4xl mr-3 text-blue-500" />
-        <h2 className="text-3xl font-bold">How to use Timestamp.run?</h2>
+        <h2 className="text-3xl font-bold">How to use Timestamp.lol?</h2>
       </div>
       
       <section className="mt-8">
         <p className="mb-4">
-          First, choose the detailed time you want to change in the input box. Timestamp.run has feature to convert human readable time with timezone to seconds timestamps.
+          First, choose the detailed time you want to change in the input box. Timestamp.lol has feature to convert human readable time with timezone to seconds timestamps.
         </p>
         <p className="mb-4">
           Then, set it and copy the result for you. With all these different timestamp formats, it's essential to have a tool that can convert between them. Timestamp converters are readily available online and can be very useful when working with timestamps in different formats. These tools can convert between epoch time, Unix timestamp, and ISO time string formats, allowing you to work with the format that best suits your needs.
@@ -63,12 +63,12 @@ const RealtimeConverter: React.FC = () => {
       </section>
 
       <section className="mt-12 mb-12">
-        <h2 className="text-3xl font-bold mb-6 text-center">Timestamp.run Key Features</h2>
+        <h2 className="text-3xl font-bold mb-6 text-center">Timestamp.lol Key Features</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="bg-blue-100 p-6 rounded-lg">
             <h3 className="text-xl font-semibold mb-3">Epoch time converter to date</h3>
-            <p>Timestamp.run provides a popup showing a human readable date of a highlighted Unix timestamp. Timestamp converts Unix timestamps to human readable date and time strings. Simply double click or highlight a timestamp in your browser window, and a small popup will appear containing a readable date and time.</p>
+            <p>Timestamp.lol provides a popup showing a human readable date of a highlighted Unix timestamp. Timestamp converts Unix timestamps to human readable date and time strings. Simply double click or highlight a timestamp in your browser window, and a small popup will appear containing a readable date and time.</p>
           </div>
           
           <div className="bg-blue-100 p-6 rounded-lg">
@@ -118,15 +118,15 @@ const RealtimeConverter: React.FC = () => {
           <div className="bg-blue-100 p-6 rounded-lg">
             <div className="flex items-center mb-3">
               <FaInfoCircle className="text-2xl mr-3 text-blue-500" />
-              <h3 className="text-xl font-semibold">Key points of Timestamp.run</h3>
+              <h3 className="text-xl font-semibold">Key points of Timestamp.lol</h3>
             </div>
-            <p>Unix Epoch is the starting point created as a universal reference. All Unix Timestamps, sometimes also referred to as Unix time or POSIX time, are an integer that simply represent the number of seconds since that time (currently 1728717260 seconds since Epoch time). With all these different timestamp formats, it's essential to have us tool Timestamp.run that can convert between them. </p>
+            <p>Unix Epoch is the starting point created as a universal reference. All Unix Timestamps, sometimes also referred to as Unix time or POSIX time, are an integer that simply represent the number of seconds since that time (currently 1728717260 seconds since Epoch time). With all these different timestamp formats, it's essential to have us tool Timestamp.lol that can convert between them. </p>
           </div>
           
           <div className="bg-blue-100 p-6 rounded-lg">
             <div className="flex items-center mb-3">
               <FaLightbulb className="text-2xl mr-3 text-blue-500" />
-              <h2 className="text-2xl font-bold">Tips for Timestamp.run</h2>
+              <h2 className="text-2xl font-bold">Tips for Timestamp.lol</h2>
             </div>
             <div className="space-y-2">
               <h3>You can convert unix timestamp to date, unix time to date, get the date from unix timestamp, convert epoch time to date, and even epoch to date, linux timestamp to date, or unix epoch to date.</h3>
@@ -155,7 +155,7 @@ const RealtimeConverter: React.FC = () => {
           <section className="mt-12">
             <div className="flex items-center mb-6">
               <FaQuestionCircle className="text-4xl mr-3 text-blue-500" />
-              <h2 className="text-3xl font-bold">FAQs about Timestamp.run</h2>
+              <h2 className="text-3xl font-bold">FAQs about Timestamp.lol</h2>
             </div>
             <div className="space-y-4">
               {faqData.map((item, index) => (
@@ -191,7 +191,7 @@ const RealtimeConverter: React.FC = () => {
         </div>
       </section>
 
-      <script defer data-domain="timestamp.run" src="https://click.pageview.click/js/script.js"></script>
+      <script defer data-domain="Timestamp.lol" src="https://click.pageview.click/js/script.js"></script>
     </div>
   )
 }

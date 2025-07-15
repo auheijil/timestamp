@@ -5,9 +5,9 @@ export default function DetailedDateToTimestampConverter() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <Head>
-        <title>Epoch Converter | Precise Date to Timestamp | Timestamp.run</title>
+        <title>Epoch Converter | Precise Date to Timestamp | Timestamp.lol</title>
         <meta name="description" content="Convert detailed dates to Unix timestamps with future calculations. Perfect for developers and time-based operations." />
-        <link rel="canonical" href="https://timestamp.run/detailed-date-to-timestamp" />
+        <link rel="canonical" href="https://Timestamp.lol/detailed-date-to-timestamp" />
       </Head>
       
       <h1 className="text-4xl font-bold mb-6 text-center text-gray-800">Welcome to the Epoch Converter</h1>

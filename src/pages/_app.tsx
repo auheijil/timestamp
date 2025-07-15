@@ -26,9 +26,9 @@ function NavBar() {
     <nav className="bg-white shadow-md">
       <div className="container mx-auto px-6 py-3">
         <div className="flex items-center justify-between">
-          <Link href="https://timestamp.run/" className="flex items-center">
-            <img src="/icon/favicon-32x32.png" alt="Timestamp.run icon" className="h-6 w-6 mr-2" />
-            <span className="text-xl font-semibold">Timestamp.run</span>
+          <Link href="https://Timestamp.lol/" className="flex items-center">
+            <img src="/icon/favicon-32x32.png" alt="Timestamp.lol icon" className="h-6 w-6 mr-2" />
+            <span className="text-xl font-semibold">Timestamp.lol</span>
           </Link>
           <div className="flex items-center space-x-4">
             <div className="flex items-center">

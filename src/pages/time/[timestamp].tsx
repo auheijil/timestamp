@@ -12,7 +12,7 @@ export default function TimestampPage({ timestamp, convertedDates }: TimestampPa
   return (
     <div className="max-w-4xl mx-auto">
       <Head>
-        <title>{`Timestamp ${timestamp} Conversion | Timestamp.run`}</title>
+        <title>{`Timestamp ${timestamp} Conversion | Timestamp.lol`}</title>
         <meta name="description" content={`Convert Unix timestamp ${timestamp} to human-readable dates across multiple time zones.`} />
       </Head>
       <h1 className="text-3xl font-bold mb-6">Timestamp {timestamp} Conversion</h1>
