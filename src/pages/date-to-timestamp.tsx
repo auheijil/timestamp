@@ -5,6 +5,15 @@ export default function DateToTimestampConverter() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <Head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-J9B0CDD2T2"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-J9B0CDD2T2');
+        </script>
         <title>Date to Timestamp Converter | Timestamp.lol</title>
         <meta name="description" content="Convert dates to Unix timestamps with precision. Perfect for developers working with time-based data and calculations." />
         <link rel="canonical" href="https://Timestamp.lol/date-to-timestamp" />
