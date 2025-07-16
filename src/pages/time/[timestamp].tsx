@@ -12,15 +12,6 @@ export default function TimestampPage({ timestamp, convertedDates }: TimestampPa
   return (
     <div className="max-w-4xl mx-auto">
       <Head>
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-J9B0CDD2T2"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-J9B0CDD2T2');
-        </script>
         <title>{`Timestamp ${timestamp} Conversion | Timestamp.lol`}</title>
         <meta name="description" content={`Convert Unix timestamp ${timestamp} to human-readable dates across multiple time zones.`} />
       </Head>

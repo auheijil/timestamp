@@ -8,15 +8,6 @@ export default function Home() {
   return (
     <div className="max-w-4xl mx-auto">
       <Head>
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-J9B0CDD2T2"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-J9B0CDD2T2');
-        </script>
         <link rel="icon" href="/icon/favicon.ico"/>
         <link rel="icon" type="image/png" href="/icon/favicon-32x32.png" />
         <link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-touch-icon.png" />
