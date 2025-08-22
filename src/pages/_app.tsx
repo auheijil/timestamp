@@ -5,6 +5,7 @@ import { Clock, Globe } from 'lucide-react'
 import { TimeZoneProvider, useTimeZone } from '../contexts/TimeZoneContext'
 import { timeZones } from '../utils/timeZones'
 import React, { useEffect } from 'react'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 function NavBar() {
   const { timeZone, setTimeZone } = useTimeZone()
@@ -63,6 +64,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <NavBar />
         <div className="container mx-auto px-6 py-8">
           <Component {...pageProps} />
+          <GoogleAnalytics gaId="G-5G5ZMBEJY5" />
         </div>
       </div>
     </TimeZoneProvider>

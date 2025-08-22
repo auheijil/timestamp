@@ -2,6 +2,7 @@ import { GetServerSideProps } from 'next'
 import Head from 'next/head'
 import TimestampToDateConverterComponent from '@/components/TimestampToDateConverter'
 import { timeZones } from '@/utils/timeZones'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 interface TimestampPageProps {
   timestamp: string
@@ -14,6 +15,7 @@ export default function TimestampPage({ timestamp, convertedDates }: TimestampPa
       <Head>
         <title>{`Timestamp ${timestamp} Conversion | Timestamp.lol`}</title>
         <meta name="description" content={`Convert Unix timestamp ${timestamp} to human-readable dates across multiple time zones.`} />
+        <GoogleAnalytics gaId="G-5G5ZMBEJY5" />
       </Head>
       <h1 className="text-3xl font-bold mb-6">Timestamp {timestamp} Conversion</h1>
       <TimestampToDateConverterComponent initialTimestamp={timestamp} initialConvertedDates={convertedDates} />

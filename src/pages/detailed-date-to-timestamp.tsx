@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import DetailedDateToTimestampConverterComponent from '@/components/DetailedDateToTimestampConverter'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export default function DetailedDateToTimestampConverter() {
   return (
@@ -8,6 +9,7 @@ export default function DetailedDateToTimestampConverter() {
         <title>Epoch Converter | Precise Date to Timestamp | Timestamp.lol</title>
         <meta name="description" content="Convert detailed dates to Unix timestamps with future calculations. Perfect for developers and time-based operations." />
         <link rel="canonical" href="https://Timestamp.lol/detailed-date-to-timestamp" />
+        <GoogleAnalytics gaId="G-5G5ZMBEJY5" />
       </Head>
       
       <h1 className="text-4xl font-bold mb-6 text-center text-gray-800">Welcome to the Epoch Converter</h1>

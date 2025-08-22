@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import DateToTimestampConverterComponent from '@/components/DateToTimestampConverter'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export default function DateToTimestampConverter() {
   return (
@@ -8,6 +9,7 @@ export default function DateToTimestampConverter() {
         <title>Date to Timestamp Converter | Timestamp.lol</title>
         <meta name="description" content="Convert dates to Unix timestamps with precision. Perfect for developers working with time-based data and calculations." />
         <link rel="canonical" href="https://Timestamp.lol/date-to-timestamp" />
+        <GoogleAnalytics gaId="G-5G5ZMBEJY5" />
       </Head>
       
       <h1 className="text-4xl font-bold mb-6 text-center text-gray-800">Date to Timestamp Converter</h1>

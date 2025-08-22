@@ -6,6 +6,7 @@ import TimestampToDateConverter from './components/TimestampToDateConverter'
 import DateToTimestampConverter from './components/DateToTimestampConverter'
 import DetailedDateToTimestampConverter from './components/DetailedDateToTimestampConverter'
 import { TimeZoneProvider } from './contexts/TimeZoneContext'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 function App() {
   return (

@@ -3,6 +3,7 @@ import dynamic from 'next/dynamic'
 import { GetServerSideProps } from 'next'
 import { TimeZoneProvider } from '../contexts/TimeZoneContext'
 import EnhancedTimestampConverter from '../components/EnhancedTimestampConverter'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <link rel="canonical" href="https://Timestamp.lol/" />
         <title>Unix timestamp to date converter free online</title>
         <meta name="description" content="Epoch and unix timestamp converter free. Date and time function timestamp for various programming languages. Use it now." />
+        <GoogleAnalytics gaId="G-5G5ZMBEJY5" />
       </Head>
       <h1 className="text-4xl font-bold mb-6 text-center">Unix timestamp to date and datetime to timestamp Converter</h1>
       <h2 className="text-xl font-semibold mb-4 text-center">Free unix timestamp and epoch time to date tool. Supports Epoch unix time in seconds and minutes.</h2>

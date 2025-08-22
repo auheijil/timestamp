@@ -1,4 +1,5 @@
 import React, { createContext, useState, useContext } from 'react';
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 type TimeZoneContextType = {
   timeZone: string;
@@ -13,6 +14,7 @@ export const TimeZoneProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   return (
     <TimeZoneContext.Provider value={{ timeZone, setTimeZone }}>
       {children}
+      <GoogleAnalytics gaId="G-5G5ZMBEJY5" />
     </TimeZoneContext.Provider>
   );
 };
