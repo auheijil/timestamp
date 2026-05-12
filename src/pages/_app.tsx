@@ -11,7 +11,9 @@ import { GoogleAnalytics } from '@next/third-parties/google'
 const nativeBannerScript = React.createElement('script', {
   async: true,
   'data-cfasync': false,
-  src: 'https://pl29418869.profitablecpmratenetwork.com/cbd6958b30fdfd41cf235960398e58f9/invoke.js'
+  src: 'https://pl29418869.profitablecpmratenetwork.com/cbd6958b30fdfd41cf235960398e58f9/invoke.js',
+  crossOrigin: 'anonymous',
+  defer: true
 })
 
 const nativeBannerContainer = React.createElement('div', {
@@ -20,7 +22,9 @@ const nativeBannerContainer = React.createElement('div', {
 
 // Social Bar广告代码
 const socialBarScript = React.createElement('script', {
-  src: 'https://pl29418870.profitablecpmratenetwork.com/08/b5/65/08b565ed057547ab0419b6c84fea4746.js'
+  src: 'https://pl29418870.profitablecpmratenetwork.com/08/b5/65/08b565ed057547ab0419b6c84fea4746.js',
+  crossOrigin: 'anonymous',
+  defer: true
 })
 
 function NavBar() {
