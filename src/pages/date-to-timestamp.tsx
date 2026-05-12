@@ -10,9 +10,6 @@ export default function DateToTimestampConverter() {
         <meta name="description" content="Convert dates to Unix timestamps with precision. Perfect for developers working with time-based data and calculations." />
         <link rel="canonical" href="https://Timestamp.lol/date-to-timestamp" />
         <GoogleAnalytics gaId="G-5G5ZMBEJY5" />
-        <script async="async" data-cfasync="false" src="https://pl29418869.profitablecpmratenetwork.com/cbd6958b30fdfd41cf235960398e58f9/invoke.js"></script>
-<div id="container-cbd6958b30fdfd41cf235960398e58f9"></div>
-        <script src="https://pl29418870.profitablecpmratenetwork.com/08/b5/65/08b565ed057547ab0419b6c84fea4746.js"></script>
       </Head>
       
       <h1 className="text-4xl font-bold mb-6 text-center text-gray-800">Date to Timestamp Converter</h1>
@@ -171,9 +168,6 @@ export default function DateToTimestampConverter() {
         </p>
       </section>
       <script defer data-domain="Timestamp.lol" src="https://click.pageview.click/js/script.js"></script>
-      <script async="async" data-cfasync="false" src="https://pl29418869.profitablecpmratenetwork.com/cbd6958b30fdfd41cf235960398e58f9/invoke.js"></script>
-<div id="container-cbd6958b30fdfd41cf235960398e58f9"></div>
-      <script src="https://pl29418870.profitablecpmratenetwork.com/08/b5/65/08b565ed057547ab0419b6c84fea4746.js"></script>
     </div>
   )
 }
