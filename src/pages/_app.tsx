@@ -7,6 +7,24 @@ import { timeZones } from '../utils/timeZones'
 import React, { useEffect } from 'react'
 import { GoogleAnalytics } from '@next/third-parties/google'
 
+// Native Banner广告代码
+const nativeBannerScript = (
+  <script
+    async="async"
+    data-cfasync="false"
+    src="https://pl29418869.profitablecpmratenetwork.com/cbd6958b30fdfd41cf235960398e58f9/invoke.js"
+  />
+)
+
+const nativeBannerContainer = (
+  <div id="container-cbd6958b30fdfd41cf235960398e58f9"></div>
+)
+
+// Social Bar广告代码
+const socialBarScript = (
+  <script src="https://pl29418870.profitablecpmratenetwork.com/08/b5/65/08b565ed057547ab0419b6c84fea4746.js" />
+)
+
 function NavBar() {
   const { timeZone, setTimeZone } = useTimeZone()
 
@@ -61,6 +79,13 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <TimeZoneProvider>
       <div className="min-h-screen bg-gray-100">
+        {/* Native Banner广告 */}
+        {nativeBannerScript}
+        {nativeBannerContainer}
+
+        {/* Social Bar广告 */}
+        {socialBarScript}
+
         <NavBar />
         <div className="container mx-auto px-6 py-8">
           <Component {...pageProps} />
