@@ -79,18 +79,18 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <TimeZoneProvider>
       <div className="min-h-screen bg-gray-100">
-        {/* Native Banner广告 */}
+        {/* Native Banner广告 - 可以放在body的任何位置 */}
         {nativeBannerScript}
         {nativeBannerContainer}
-
-        {/* Social Bar广告 */}
-        {socialBarScript}
 
         <NavBar />
         <div className="container mx-auto px-6 py-8">
           <Component {...pageProps} />
           <GoogleAnalytics gaId="G-5G5ZMBEJY5" />
         </div>
+
+        {/* Social Bar广告 - 应该放在</body>之前 */}
+        {socialBarScript}
       </div>
     </TimeZoneProvider>
   )
