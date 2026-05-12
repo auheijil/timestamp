@@ -7,26 +7,6 @@ import { timeZones } from '../utils/timeZones'
 import React, { useEffect } from 'react'
 import { GoogleAnalytics } from '@next/third-parties/google'
 
-// Native Banner广告代码
-const nativeBannerScript = React.createElement('script', {
-  async: true,
-  'data-cfasync': false,
-  src: 'https://pl29418869.profitablecpmratenetwork.com/cbd6958b30fdfd41cf235960398e58f9/invoke.js',
-  crossOrigin: 'anonymous',
-  defer: true
-})
-
-const nativeBannerContainer = React.createElement('div', {
-  id: 'container-cbd6958b30fdfd41cf235960398e58f9'
-})
-
-// Social Bar广告代码
-const socialBarScript = React.createElement('script', {
-  src: 'https://pl29418870.profitablecpmratenetwork.com/08/b5/65/08b565ed057547ab0419b6c84fea4746.js',
-  crossOrigin: 'anonymous',
-  defer: true
-})
-
 function NavBar() {
   const { timeZone, setTimeZone } = useTimeZone()
 
@@ -78,21 +58,45 @@ function NavBar() {
 }
 
 export default function App({ Component, pageProps }: AppProps) {
+  // Native Banner广告 - 使用动态创建脚本元素
+  React.useEffect(() => {
+    const script = document.createElement('script')
+    script.async = true
+    script.setAttribute('data-cfasync', 'false')
+    script.src = 'https://pl29418869.profitablecpmratenetwork.com/cbd6958b30fdfd41cf235960398e58f9/invoke.js'
+    script.crossOrigin = 'anonymous'
+    document.body.appendChild(script)
+
+    const container = document.createElement('div')
+    container.id = 'container-cbd6958b30fdfd41cf235960398e58f9'
+    document.body.appendChild(container)
+
+    return () => {
+      document.body.removeChild(script)
+      document.body.removeChild(container)
+    }
+  }, [])
+
+  // Social Bar广告代码 - 使用动态创建脚本元素
+  React.useEffect(() => {
+    const script = document.createElement('script')
+    script.src = 'https://pl29418870.profitablecpmratenetwork.com/08/b5/65/08b565ed057547ab0419b6c84fea4746.js'
+    script.crossOrigin = 'anonymous'
+    document.body.appendChild(script)
+
+    return () => {
+      document.body.removeChild(script)
+    }
+  }, [])
+
   return (
     <TimeZoneProvider>
       <div className="min-h-screen bg-gray-100">
-        {/* Native Banner广告 - 可以放在body的任何位置 */}
-        {nativeBannerScript}
-        {nativeBannerContainer}
-
         <NavBar />
         <div className="container mx-auto px-6 py-8">
           <Component {...pageProps} />
           <GoogleAnalytics gaId="G-5G5ZMBEJY5" />
         </div>
-
-        {/* Social Bar广告 - 应该放在</body>之前 */}
-        {socialBarScript}
       </div>
     </TimeZoneProvider>
   )
