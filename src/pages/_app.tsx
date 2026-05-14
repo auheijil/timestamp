@@ -58,37 +58,6 @@ function NavBar() {
 }
 
 export default function App({ Component, pageProps }: AppProps) {
-  // Native Banner广告 - 使用动态创建脚本元素
-  React.useEffect(() => {
-    const script = document.createElement('script')
-    script.async = true
-    script.setAttribute('data-cfasync', 'false')
-    script.src = 'https://pl29418869.profitablecpmratenetwork.com/cbd6958b30fdfd41cf235960398e58f9/invoke.js'
-    script.crossOrigin = 'anonymous'
-    document.body.appendChild(script)
-
-    const container = document.createElement('div')
-    container.id = 'container-cbd6958b30fdfd41cf235960398e58f9'
-    document.body.appendChild(container)
-
-    return () => {
-      document.body.removeChild(script)
-      document.body.removeChild(container)
-    }
-  }, [])
-
-  // Social Bar广告代码 - 使用动态创建脚本元素
-  React.useEffect(() => {
-    const script = document.createElement('script')
-    script.src = 'https://pl29418870.profitablecpmratenetwork.com/08/b5/65/08b565ed057547ab0419b6c84fea4746.js'
-    script.crossOrigin = 'anonymous'
-    document.body.appendChild(script)
-
-    return () => {
-      document.body.removeChild(script)
-    }
-  }, [])
-
   return (
     <TimeZoneProvider>
       <div className="min-h-screen bg-gray-100">

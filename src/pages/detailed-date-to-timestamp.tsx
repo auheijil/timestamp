@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import DetailedDateToTimestampConverterComponent from '@/components/DetailedDateToTimestampConverter'
 import { GoogleAnalytics } from '@next/third-parties/google'
-
+// page Epoch Converter
 export default function DetailedDateToTimestampConverter() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
@@ -183,6 +183,13 @@ export default function DetailedDateToTimestampConverter() {
           Our tool is quick, accurate, and user-friendly—ideal for all your time conversion needs.
         </p>
       </section>
+
+      {/* Native Banner Ad */}
+      <script async={true} data-cfasync="false" src="https://pl29418869.profitablecpmratenetwork.com/cbd6958b30fdfd41cf235960398e58f9/invoke.js"></script>
+      <div id="container-cbd6958b30fdfd41cf235960398e58f9"></div>
+
+      {/* Social Bar Ad */}
+      <script src="https://pl29418870.profitablecpmratenetwork.com/08/b5/65/08b565ed057547ab0419b6c84fea4746.js"></script>
     </div>
   )
 }

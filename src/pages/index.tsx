@@ -4,7 +4,7 @@ import { GetServerSideProps } from 'next'
 import { TimeZoneProvider } from '../contexts/TimeZoneContext'
 import EnhancedTimestampConverter from '../components/EnhancedTimestampConverter'
 import { GoogleAnalytics } from '@next/third-parties/google'
-
+// page Realtime
 export default function Home() {
   return (
     <div className="max-w-4xl mx-auto">
@@ -22,7 +22,15 @@ export default function Home() {
       </Head>
       <h1 className="text-4xl font-bold mb-6 text-center">Unix timestamp to date and datetime to timestamp Converter</h1>
       <h2 className="text-xl font-semibold mb-4 text-center">Free unix timestamp and epoch time to date tool. Supports Epoch unix time in seconds and minutes.</h2>
+
       <EnhancedTimestampConverter />
+
+      {/* Native Banner Ad */}
+      <script async={true} data-cfasync="false" src="https://pl29418869.profitablecpmratenetwork.com/cbd6958b30fdfd41cf235960398e58f9/invoke.js"></script>
+      <div id="container-cbd6958b30fdfd41cf235960398e58f9"></div>
+
+      {/* Social Bar Ad */}
+      <script src="https://pl29418870.profitablecpmratenetwork.com/08/b5/65/08b565ed057547ab0419b6c84fea4746.js"></script>
     </div>
   )
 }

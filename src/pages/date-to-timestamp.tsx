@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import DateToTimestampConverterComponent from '@/components/DateToTimestampConverter'
 import { GoogleAnalytics } from '@next/third-parties/google'
-
+// page Date to Timestamp
 export default function DateToTimestampConverter() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
@@ -167,6 +167,14 @@ export default function DateToTimestampConverter() {
           professionals across all sectors.
         </p>
       </section>
+
+      {/* Native Banner Ad */}
+      <script async={true} data-cfasync="false" src="https://pl29418869.profitablecpmratenetwork.com/cbd6958b30fdfd41cf235960398e58f9/invoke.js"></script>
+      <div id="container-cbd6958b30fdfd41cf235960398e58f9"></div>
+
+      {/* Social Bar Ad */}
+      <script src="https://pl29418870.profitablecpmratenetwork.com/08/b5/65/08b565ed057547ab0419b6c84fea4746.js"></script>
+
       <script defer data-domain="Timestamp.lol" src="https://click.pageview.click/js/script.js"></script>
     </div>
   )
